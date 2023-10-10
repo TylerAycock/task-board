@@ -30,6 +30,13 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(359deg, #3023ae, #eb7f7b);
+	margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Work Sons', sans-serif;
 }
 ol, ul {
 	list-style: none;

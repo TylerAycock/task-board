@@ -10,7 +10,7 @@ const NavBar = () => {
     return (
         <div className='navbar'>
             <div className='search'>
-                <AiOutlineSearch className='icon'  size = '10x'/>
+                <AiOutlineSearch className='icon'/>
                 <input type="text" value={search} onChange={(e)=>setSearch(e.target.value)}/>
             </div>
             <h1 className='title'>Task List</h1>
