@@ -1,6 +1,6 @@
 import "./Tasks.css";
 import { BsThreeDots } from "react-icons/bs";
-import { BsListNested} from "react-icons/bs";
+import { BsListNested } from "react-icons/bs";
 
 const Tasks = () => {
   return (
@@ -11,15 +11,19 @@ const Tasks = () => {
           <BsThreeDots />
         </div>
         <div className="card">
-          <div className="rectangle yellow"></div>
-          <div className="rectangle green"></div>
-          <div className="rectangle blue"></div>
-          <div className="rectangle orange"></div>
+          <div className="bars">
+            <div className="rectangle yellow"></div>
+            <div className="rectangle green"></div>
+            <div className="rectangle blue"></div>
+            <div className="rectangle orange"></div>
+          </div>
           <p>Pick Color Trends</p>
-          <p class="task-date">4/21/2017</p>
-          <BsListNested/>
+          <div className="date">
+            <BsListNested />
+            <p class="task-date">4/21/2017</p>
+          </div>
         </div>
-        <div className="card">
+        {/* <div className="card">
           <div className="rectangle yellow"></div>
           <div className="rectangle green"></div>
           <div className="rectangle blue"></div>
@@ -39,7 +43,7 @@ const Tasks = () => {
           <div className="rectangle blue"></div>
           <div className="rectangle orange"></div>
           <p>Confirm Structural integrity</p>
-        </div>
+        </div> */}
       </div>
       <div className="card-column active-projects">
         <h2>Active Projects</h2>
